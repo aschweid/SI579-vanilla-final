@@ -10,7 +10,7 @@
 
 document.querySelector('#button')
   .addEventListener('click', () => {
-    alert('Button clicked!');
+    document.querySelector('#output').innerHTML = 'World';
   });
 
 
